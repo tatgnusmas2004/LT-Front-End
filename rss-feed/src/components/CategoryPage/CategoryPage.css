@@ -1,0 +1,20 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+.pagination li {
+  margin: 0 5px;
+  cursor: pointer;
+}
+.pagination li a {
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.pagination li.active {
+  font-weight: bold;
+}/*# sourceMappingURL=CategoryPage.css.map */

@@ -1,0 +1,47 @@
+.article {
+  margin: 20px;
+}
+.article .article-card {
+  margin: auto;
+  max-width: 80%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+.article .article-card .thumnails {
+  max-width: 270px;
+}
+.article .article-card .thumnails img {
+  width: 100%;
+  max-width: 270px;
+  display: block;
+  color: transparent;
+}
+.article .article-card .box-title-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #222;
+  display: block;
+  transition: 0.3s ease-in-out all;
+  font-size: 22px;
+}
+.article .article-card .box-title-text:hover {
+  color: #DD0B13 !important;
+}
+.article .title-article {
+  font-size: 22px;
+  line-height: 28px;
+  color: #222;
+  font-weight: 700;
+  display: block;
+}
+.article .content-snippet {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #565656;
+  display: block;
+  overflow: hidden;
+  max-height: 110px;
+  transition: 0.3s ease-in-out all;
+}/*# sourceMappingURL=Card.css.map */

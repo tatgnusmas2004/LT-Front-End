@@ -1,0 +1,17 @@
+.themeToggleBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 17px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.themeToggleBtn:hover {
+  background-color: #0056b3;
+}/*# sourceMappingURL=ThemeToggle.css.map */
