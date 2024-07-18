@@ -1,0 +1,49 @@
+.footer {
+  padding: 20px 0;
+  border-top: 2px solid #ff0000;
+  font-size: 12px;
+}
+.footer .footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.footer .logo img {
+  height: 40px;
+  margin: 5px 0;
+}
+.footer .media {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer .media a {
+  font-size: 20px;
+}
+.footer .contact-info p {
+  margin: 5px 0;
+}
+.footer .email-signup p {
+  margin: 5px 0;
+}
+.footer a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer .signup-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.footer .signup-button:hover {
+  background-color: #0056b3;
+}
+.footer .footer-content, .footer .footer-content a {
+  transition: 0.3s ease-in-out all;
+}/*# sourceMappingURL=Footer.css.map */
